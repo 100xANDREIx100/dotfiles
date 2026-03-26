@@ -1,6 +1,6 @@
 # ⚙️ Dotfiles
 
-This repository contains my personal configuration files (dotfiles) used to maintain a consistent, productive, and "pro" development environment across different machines.
+This repository contains my personal configuration files (dotfiles) used to maintain a consistent and productive development environment across different machines.
 
 ## 🚀 Overview
 The goal of this repository is to automate my workspace setup. By using symbolic links (symlinks), I can keep my system configurations synced with this Git repository, allowing for easy backups and quick deployment on new VMs or servers.
@@ -8,7 +8,6 @@ The goal of this repository is to automate my workspace setup. By using symbolic
 ## 🗂️ Structure
 - `.bashrc`: Optimized Bash shell with Git-aware prompt and QoL aliases.
 - `init.lua`: Professional Neovim configuration for a lightweight IDE experience.
-- `.vimrc`: Classic Vim settings.
 
 ## 🛠️ Installation
 
@@ -16,7 +15,7 @@ The goal of this repository is to automate my workspace setup. By using symbolic
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/dotfiles.git](https://github.com/YOUR_USERNAME/dotfiles.git) ~/dotfiles
+   git clone [https://github.com/100xANDREIx100/dotfiles.git](https://github.com/100xANDREIx100/dotfiles.git) ~/dotfiles
    ```
 2. **Link the configurations:**
     ```bash
