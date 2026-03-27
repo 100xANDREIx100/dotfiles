@@ -1,0 +1,39 @@
+# Swap files and backups
+*.swp
+*.swo
+*~
+*.bak
+
+# Undo history (if you configured it to save locally)
+undo/
+
+# OS generated files (good practice if you ever use this repo on macOS/Linux)
+.DS_Store
+Thumbs.db
+
+# Any local-only configuration files you don't want public
+.local.lua
+
+# Editor directories
+.vscode/
+.idea/
+Session.vim
+.netrwhist
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.AppleDouble
+.LSOverride
+._*
+
+# Shell history
+.bash_history
+.zsh_history
+
+# Logs and temp files
+*.log
+tmp/
+temp/
