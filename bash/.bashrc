@@ -58,6 +58,10 @@ alias l='ls -CF'
 alias path='echo -e ${PATH//:/\\n}'
 alias myip='curl -s https://ifconfig.me/ip && echo'
 alias ports='netstat -tulanp'
+alias sp='sudo poweroff'
+cd(){
+	builtin cd "$@" && ls
+}
 
 # Safety Nets (Prompts for confirmation)
 alias rm='rm -i'
