@@ -11,9 +11,11 @@ esac
 # Check window size after each command and update LINES/COLUMNS
 shopt -s checkwinsize
 # Auto-correct minor typos in 'cd' commands
-shopt -s cdspell dirspell
+shopt -s cdspell
 # Extend globbing (e.g., ls **/*.js)
 shopt -s globstar
+#Enter directories without cd
+shopt -s autocd
 
 # ------------------------------------------------------------------
 # 2. PROFESSIONAL HISTORY MANAGEMENT
